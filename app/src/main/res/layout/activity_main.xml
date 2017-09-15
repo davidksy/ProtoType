@@ -5,38 +5,53 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="100"
+    android:weightSum="1"
+    android:background="#0000ff"
     tools:context="com.example.a60047506.prototype.MainActivity">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="60"
-        android:orientation="horizontal">
 
     <TextView
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:text="Hello World!"
-        android:layout_weight="50"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
         android:background="#0000ff" />
 
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="500dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_gravity="center"
+        android:text="FaceBook으로 가입" />
+
+
     <TextView
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:text="Hi~!!"
-        android:layout_weight="50"
-        android:background="#ff0000" />
-    </LinearLayout>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="InAndOutTest"
-        android:layout_weight="0"
-        />
-    <ImageView
-        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="40"
-        android:background="@drawable/star" />
+        android:layout_weight="0.1"
+        android:background="#0000ff" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="500dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_gravity="center"
+        android:text="Email으로 가입" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="#0000ff" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="500dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_gravity="center"
+        android:text="KAKAO TALK으로 가입" />
+
+
 </LinearLayout>
